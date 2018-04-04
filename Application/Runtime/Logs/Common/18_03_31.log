@@ -1,0 +1,24 @@
+[ 2018-03-31T07:35:02+08:00 ] 192.168.1.102 /favicon.ico
+ERR: 无法加载模块:Favicon
+
+[ 2018-03-31T07:35:13+08:00 ] 192.168.1.102 /Public/job/img/nav-expand.png
+ERR: 无法加载模块:Public
+
+[ 2018-03-31T07:35:22+08:00 ] 192.168.1.102 /Public/job/img/nav-expand.png
+ERR: 无法加载模块:Public
+
+[ 2018-03-31T12:37:08+08:00 ] 192.168.1.102 /Public/job/img/nav-expand.png
+ERR: 无法加载模块:Public
+
+[ 2018-03-31T12:37:17+08:00 ] 192.168.1.102 /Public/job/img/nav-expand.png
+ERR: 无法加载模块:Public
+
+[ 2018-03-31T13:02:27+08:00 ] 192.168.1.102 /favicon.ico
+ERR: 无法加载模块:Favicon
+
+[ 2018-03-31T13:02:33+08:00 ] 192.168.1.102 /Public/job/img/nav-expand.png
+ERR: 无法加载模块:Public
+
+[ 2018-03-31T13:02:34+08:00 ] 192.168.1.102 /Public/job/img/nav-expand.png
+ERR: 无法加载模块:Public
+

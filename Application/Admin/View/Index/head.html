@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--header start-->
+<header class="header black-bg">
+    <div class="sidebar-toggle-box">
+        <div class="fa fa-bars tooltips" data-placement="right" data-original-title="隐藏/显示左边栏"></div>
+    </div>
+    <!--logo start-->
+    <a href="index.html" class="logo"><b>我的主页</b></a>
+    <!--logo end-->
+    <div class="nav notify-row" id="top_menu">
+        <!--  notification start -->
+        <ul class="nav top-menu">
+            <!-- settings start -->
+            <li class="dropdown">
+                <button data-toggle="dropdown" class="dropdown-toggle  btn btn-sm btn-info" style="cursor: default">
+                    <i class="fa fa-tasks"></i>
+                    <span class="badge bg-theme"></span>
+                </button>
+                <ul class="dropdown-menu extended tasks-bar">
+                    <div class="notify-arrow notify-arrow-green"></div>
+                    <li>
+                        <p class="green">You have 4 pending tasks</p>
+                    </li>
+                    <li>
+                        <a href="index.html#">
+                            <div class="task-info">
+                                <div class="desc">DashGum Admin Panel</div>
+                                <div class="percent">40%</div>
+                            </div>
+                            <div class="progress progress-striped">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                    <span class="sr-only">40% Complete (success)</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html#">
+                            <div class="task-info">
+                                <div class="desc">Database Update</div>
+                                <div class="percent">60%</div>
+                            </div>
+                            <div class="progress progress-striped">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                    <span class="sr-only">60% Complete (warning)</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html#">
+                            <div class="task-info">
+                                <div class="desc">Product Development</div>
+                                <div class="percent">80%</div>
+                            </div>
+                            <div class="progress progress-striped">
+                                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                    <span class="sr-only">80% Complete</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html#">
+                            <div class="task-info">
+                                <div class="desc">Payments Sent</div>
+                                <div class="percent">70%</div>
+                            </div>
+                            <div class="progress progress-striped">
+                                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                                    <span class="sr-only">70% Complete (Important)</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="external">
+                        <a href="#">See All Tasks</a>
+                    </li>
+                </ul>
+            </li>
+            <!-- settings end -->
+            <!-- inbox dropdown start-->
+            <li id="header_inbox_bar" class="dropdown" style="margin-left:20px">
+                <button data-toggle="dropdown" class="dropdown-toggle btn btn-sm btn-info" id="message" >
+                    <i class="fa fa-envelope-o"></i>
+                    <span class="badge bg-theme" id="is_read"></span>
+                </button>
+                <ul class="dropdown-menu extended inbox">
+                    <div class="notify-arrow notify-arrow-green"></div>
+                    <li>
+                        <p class="green">&nbsp;&nbsp;最近的5个未读邮件如下：</p>
+                    </li>
+                    <li>
+                        <button class="btn btn-success btn-sm to_box">
+                            <span class="photo"></span>
+                                        <span class="subject">
+                                        <span class="from" style="margin-right:37px;">发件人</span>
+                                        <span class="time" style="margin-right:37px">邮件主题</span>
+                                        </span>
+                                        <span class="message">
+                                            发送时间
+                                        </span>
+                        </button>
+                    </li>
+
+                        <li>
+                            <button class="btn btn-success btn-sm to_box">
+                                <span class="photo"></span>
+                                        <span class="subject">
+                                        <span class="from mes_name" style="margin-right:10px;">Dan Rogers</span>
+                                        <span class="time mes_title" style="margin-right:20px">2 hrs.</span>
+                                        </span>
+                                        <span class="message mes_time">
+                                            Love your new Dashboard.
+                                        </span>
+                            </button>
+                        </li>
+                    <li>
+                        <button class="btn btn-success btn-sm to_box">
+                            <span class="photo"></span>
+                                        <span class="subject">
+                                        <span class="from mes_name" style="margin-right:10px;">Dan Rogers</span>
+                                        <span class="time mes_title" style="margin-right:20px">2 hrs.</span>
+                                        </span>
+                                        <span class="message mes_time">
+                                            Love your new Dashboard.
+                                        </span>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="btn btn-success btn-sm to_box">
+                            <span class="photo"></span>
+                                        <span class="subject">
+                                        <span class="from mes_name" style="margin-right:10px;">Dan Rogers</span>
+                                        <span class="time mes_title" style="margin-right:20px">2 hrs.</span>
+                                        </span>
+                                        <span class="message mes_time">
+                                            Love your new Dashboard.
+                                        </span>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="btn btn-success btn-sm to_box">
+                            <span class="photo"></span>
+                                        <span class="subject">
+                                        <span class="from mes_name" style="margin-right:10px;">Dan Rogers</span>
+                                        <span class="time mes_title" style="margin-right:20px">2 hrs.</span>
+                                        </span>
+                                        <span class="message mes_time">
+                                            Love your new Dashboard.
+                                        </span>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="btn btn-success btn-sm to_box">
+                            <span class="photo"></span>
+                                        <span class="subject">
+                                        <span class="from mes_name" style="margin-right:10px;">Dan Rogers</span>
+                                        <span class="time mes_title" style="margin-right:20px">2 hrs.</span>
+                                        </span>
+                                        <span class="message mes_time">
+                                            Love your new Dashboard.
+                                        </span>
+                        </button>
+                    </li>
+
+                </ul>
+            </li>
+            <!-- inbox dropdown end -->
+        </ul>
+        <!--  notification end -->
+    </div>
+    <div class="top-menu">
+        <ul class="nav pull-right top-menu" style="list-style: none">
+            <!--<li>-->
+                <!--<input type="text" value="" placeholder="请输入字体或字体图标..." class="logout" id="b_word" />-->
+                <!--<input type="text" value=""  placeholder="请输入次数(默认为2)..." class="logout" id="b_num" />-->
+                <!--<span class="logout  b_change" style="cursor: pointer">修改</span>-->
+
+            <!--</li>-->
+            <!--<li><span class="logout btn b_beauty">装饰效果</span></li>-->
+            <li><span class="logout btn">欢迎您，{$Think.session.username}!</span> </li>
+            <li><a class="logout" id="id_logout" href="__CONTROLLER__/logout">退出！</a></li>
+        </ul>
+
+    </div>
+</header>
+<!--header end-->
+</body>
+</html>

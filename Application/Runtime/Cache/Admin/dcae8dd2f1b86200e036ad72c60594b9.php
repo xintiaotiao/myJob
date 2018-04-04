@@ -1,0 +1,213 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人介绍及项目说明</title>
+    <link href="/Public/job/css/bootstrap.css" rel="stylesheet">
+    <script src="/Public/job/js/jquery-1.8.3.min.js"></script>
+    <script src="/Public/job/js/bootstrap.min.js"></script>
+
+    <style>
+        .text-success{
+            margin:15px auto;
+        }
+        /*自定义鼠标悬停的样式*/
+        .m_hover{
+            font-weight: bold;
+            color: mediumvioletred;
+            font-size: 14px;
+            font-weight: bold;
+            font-family: "微软雅黑 Light";
+        }
+        .m_hover p{
+            line-height: 45px;
+        }
+        p{
+            line-height: 30px;
+        }
+    </style>
+    <script>
+        $(function(){
+            //jquery代码控制信息的显示和隐藏
+            $('.b_show1').on('click',function(){
+                $('.s_show1').slideToggle(300);
+            });
+            $('.b_show2').on('click',function(){
+                $('.s_show2').slideToggle(300);
+            });
+            $('.b_show3').on('click',function(){
+                $('.s_show3').slideToggle(300);
+            });
+            $('.b_show4').on('click',function(){
+                $('.s_show4').slideToggle(300);
+            });
+            $('.b_show5').on('click',function(){
+                $('.s_show5').slideToggle(300);
+            });
+            $('.b_show6').on('click',function(){
+                $('.s_show6').slideToggle(300);
+            });
+           //jquery实现自定义的鼠标悬停样式
+            $('.text-success').hover(function(){
+
+                $(this).addClass('m_hover');
+            },function(){
+                $(this).removeClass('m_hover');
+            });
+
+        });
+
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+
+            <!--项目介绍-->
+            <div class="panel panel-info col-md-10 " style="margin:15px auto">
+                <div class="panel-heading " style="text-align: center">
+                    <span class="panel-title btn btn-info disabled">项目介绍</span>
+                </div>
+                <div class="panel-body">
+                    <div class="text-success">
+                        <p></p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本项目是用采用bootstrap、jquery、mysql、thinkphp、ajax等综合技术完成的开发，采用MVC模式，并实现响应式布局
+                        ，支持手机端访问。项目包括邮件系统、音乐网站、小说网站和作品欣赏，当然主要功能以邮件系统、音乐网站和小说网站为主；因为这只是我个人在工作之余，开发的小项目，所以
+                        功能并不强大，也没太多的商业价值，但是却是对我掌握的web技术的体现。麻雀虽小五脏俱全，本网站有登录验证、注册系统、RABC权限管理、网站前段展示和后端管理
+                        等功能，下面做详细介绍：</p>
+                        <p></p>
+                    </div>
+                    <div class="text-success">
+                        <button class="btn btn-info disabled ">邮件系统介绍</button>
+                            <div>
+                                <p></p>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;邮件系统实现了发送邮件、发件箱和收件箱功能，主要原理是先在mysql数据库中建立my_email表，然后通过
+                                php操作mysql，读取email内的信息并展示在页面中；难点是如何实现不同的用户只能查询自己发送和接收的邮件，实现的原理是设置to_id和from_id，并和登录
+                                    的时候记录的session的id比对，余下的就是sql语句的编写了。</p>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;邮件项目采用MVC模式，使用的php框架为thinkphp。当然，作为一门动态语言，实现动态的后台管理是至关紧要
+                                    的，技术不难实现，理解起来也很容易，就比如微软的windows视窗系统，对于用户来说，看到的窗口就相当于前段页面，看不到却实在操作的系统就相当于php语言。
+                                </p>
+                                <p></p>
+                            </div>
+
+                    </div>
+                    <div class="text-success">
+                        <button class="btn btn-info disabled ">音乐网站介绍</button>
+                        <div>
+                            <p></p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;音乐网站是整个项目中最完善的一个，用了大概4天的时间来完成，细节上处理也较全面，比如在音乐首页的展示上增加了
+                                分类，有最热、最新、用户自创音乐区域展示，并且实现了音乐的动态添加入库及音乐的curd管理操作及评论功能的添加，而且在评论管理上加入了ajax技术，实现了动
+                                态增加点击量及添加了RBAC权限控制音乐下载。</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在本例中，实现原理如邮件系统，难点在于sql语句的编写，因为一个功能的实现与否在于能否通过sql语句的编写获取
+                            想要的信息，尤其这中间牵涉到多表，如本例中在评论管理上实现了user表、music表和mcomment表的三表连表查询；只要把数据查询出来了，展示就是一件简单的事情，
+                                可以采用tp的模板替换技术，中间加入ajax无刷新获取信息技术等。综合来说，用mvc模式做一个网站，m层即模型层，负责操作数据库等；c层即控制器层，负责整个
+                                页面的业务逻辑；v层即视图层，负责展示数据给用户，至于是列表展示还是图片展示，那就取决于html和css样式的控制了。</p>
+                            <p></p>
+                        </div>
+
+                    </div>
+                    <div class="text-success">
+                        <button class="btn btn-info disabled ">小说网站介绍</button>
+                        <div>
+                            <p></p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;小说网站是用了一天的时间开发出来的用于小说后台管理的网站，具备小说的动态增加、添加小说章节，显示并阅读小说，
+                                及小说的编辑、删除等功能，是一个具备增删改查完备系统的小型网站。当然，此网站也可以用于文档管理的拓展，比如可以作为日记记载、留言板功能等。</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;小说网站虽然是一个比较小的网站，而且只是具备管理小说的功能，但是用到的编程业务逻辑却比较严谨，是一个完整后台
+                            管理网站的代表，因为它实现了完整的增删改查功能，并且在业务逻辑上环环相扣，比如小说管理上，如果想要删除小说，则必须要先删除小说的所有章节才可，否则是不能
+                            完成删除操作的。还有，管理设置上，相比音乐网站，业务逻辑更复杂，首先管理小说，在小说管理的基础上管理章节，这之间需要通过桥梁来连接，在设计上也相比多了一
+                            个环节。</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;由于这是我本人独自开发，并且只用了一天的时间完成的，所以功能上还有很多可拓展的地方，而且在细节上也许还存在
+                            一些需要调节的bug。在此，欢迎各位阅历丰富者指教，以便我做出更好的效果！</p>
+                            <p></p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <!--个人介绍-->
+            <div class="panel panel-info col-md-10 " style="margin:15px auto">
+                <div class="panel-heading " style="text-align: center">
+                    <span class="panel-title btn btn-info disabled">个人介绍(点击可查看详情)</span>
+                </div>
+                <div class="panel-body">
+                    <div class="text-success">
+                        <button class="btn btn-info b_show1 " >1、个人资料</button>
+                        <div class="s_show1 " style="display: none" >
+                            <p></p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本人，杨小超，1989年生人，户籍河南，民族汉，本科肄业。</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;个人邮箱：yliyang_01@126.com，微信账号：xintiaotiao1。</p>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="text-success">
+                        <button class="btn btn-info b_show2 ">2、教育经历</button>
+                        <div class="s_show2 " style="display: none" >
+                            <p></p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;①、2002年3月-2005年7月，确山一高，高中。</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;②、2005年9月-2009年9月，河南科技学院(2007年辍学)，二类本科。</p>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="text-success">
+                        <button class="btn btn-info b_show3 ">3、培训经历</button>
+                        <div class="s_show3 " style="display: none" >
+                            <p></p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;①、通过个人自学及网络，学习了ps技术，现已可以处理各种照片效果，实例参加作品欣赏。</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;②、通过个人自学及网络，学习了flash技术，偏向于as3.0编程，现已可以制作完整的swf文件，实例参加作品欣赏。</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;③、通过个人自学及网络在线培训，完整的学习了web整套体系的开发技术，平台如传智博客、IT自学网、尚观、云知梦、php中文网等。学习的知识体系如下：基础的有html标签、css样式、javascript、Apache服务器、mysql数据库、php基础、
+                                ajax、linux等；又学习了相应的框架，如bootstrap支持手机端的响应式布局、jquery、jquery  UI、php方面的thinkPHP、CI等框架，后又学习了网站的优化技术，如页面静态化、memcashed缓存技术、mysql索引优化、
+                                mysql语句优化、mysql读写分离负载均衡等技术。例如，本项目就是采用以上知识体系开发，项目虽小，但把各项知识都串联了起来，实现了一个完整的网站功能。
+                            </p>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="text-success">
+                        <button class="btn btn-info b_show4 ">4、获取证书</button>
+                        <div class="s_show4 " style="display: none" >
+                            <p></p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;①、普通话二级甲等</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;②、英语四级证书</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;③、C1驾照</p>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="text-success">
+                        <button class="btn btn-info b_show5 ">5、工作经历</button>
+                        <div class="s_show5 " style="display: none" >
+                            <p></p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;①、2007年8月-2010年3月，就职于康佳集团，工作内容包括手机的组装、测试等。</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;②、2010年4月-2014年12月，就职于苏州新银通资产监管有限公司，本公司是一家第三方金融监管的企业，工作内容主要有
+                                制作每日报表、定期盘点库存、向企业公司及银行三方及时汇报信息。通过努力工作，在公司的认可下，统筹负责一片区域的工作，包括区域内人员的排版、工作安排、稽核等。
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;③、2015年1月-2017年4月，在老家发展了一段时间，做些小生意，后来不习惯乡下慢节奏的生活及本人对科学技术研究比较爱好，
+                            便外出融入外面的气氛以期有更大的进步和发展空间。</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;④、2017年5月至今，就职于观澜富士康集团IDPBG事业群产品安全部，负责门禁系统的管理和维护。在这里，人员及物料进出车间
+                                全是依靠网站系统权限管理，实现无纸化办公。这里使用的是大型的企业级别应用网站，功能强大而又实用，能保证每天十几万人进出的正常管理；在技术上牵涉到网站的功能
+                                拓展及异常维护，在经验和认知上给我很大的提升，对于我后续的网站学习及项目开发提供了很好的借鉴意义，让我对我目前掌握的知识得到了很好的实际应用。</p>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="text-success">
+                        <button class="btn btn-info b_show6 ">6、个人总结及展望</button>
+                        <div class="s_show6 " style="display: none" >
+                            <p></p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本人性格上，热情开朗，待人友好，为人诚实谦虚。工作上，勤奋好学，认真负责，能吃苦耐劳，尽职尽责，有耐心。为人上，具有亲和力，平易近人，以和为美，
+                                追求在工作中学习，在学习中工作。</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本人出来社会也已有十来年，看过不少，学过不少，也经历了不少，对自己也有了更深的认识，对未来的目标也更加明确。
+                                IT产业作为快速发展也是最火的行业，当然也是我喜欢的行业，但是我喜欢绝不仅仅是追求金钱上的回报，而是真真在在的想在这个行业长久发展，并在这个行业留下自己的
+                                一份贡献。人类社会从原始社会的适者生存，到如今的科技路线，已经越来越接近人工智能化，人类的生存困境面临的不再是自然环境的恶劣，而是生老病死。而人工智能，
+                                集成大脑的研究和程序的开发，将在这种困境下给人类以解决的希望，当然这是一条漫长的道路，也不是一个人能做出来的。虽然困难，但我只想说，人总得有点追求有点梦，虽然看来很傻，但万一实现
+                                了呢？路漫漫其修远兮，吾将上下而求索！
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div style="display: block;margin:150px auto">&nbsp;</div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Dashboard">
+    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+
+    <title>myJob首页</title>
+    <!-- Bootstrap core CSS -->
+    <link href="__PUBLIC__/job/css/bootstrap.css" rel="stylesheet">
+    <!--external css-->
+    <link href="__PUBLIC__/job/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/job/css/zabuto_calendar.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/job/js/gritter/css/jquery.gritter.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/job/lineicons/style.css">
+
+    
+    <!-- Custom styles for this template -->
+    <link href="__PUBLIC__/job/css/style.css" rel="stylesheet">
+    <link href="__PUBLIC__/job/css/style-responsive.css" rel="stylesheet">
+
+    <script src="__PUBLIC__/job/js/chart-master/Chart.js"></script>
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+  <section id="container" >
+      <div id="b_hide">
+
+
+        <!--//引入头部文件-->
+        <include file="head"/>
+
+       <!-- //引入左侧菜单栏}-->
+      <include file="left"/>
+
+      <!--main content start-->
+          <section id="main-content">
+              <section class="wrapper">
+                  <!--添加一个iframe层，用来加载主题页面，是模板分离技术的应用-->
+                  <iframe  src="__CONTROLLER__/introduce" id="iframe" class="snow"  name="iframe" frameborder="0" scrolling="auto" height="520px"  width="100%"></iframe>
+              </section>
+          </section>
+
+
+      <!--//引入尾部文件-->
+      <include file="foot"/>
+      </div>
+  </section>
+
+
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="__PUBLIC__/job/js/jquery.js"></script>
+    <script src="__PUBLIC__/job/js/jquery-1.8.3.min.js"></script>
+    <script src="__PUBLIC__/job/js/bootstrap.min.js"></script>
+    <script class="include" type="text/javascript" src="__PUBLIC__/job/js/jquery.dcjqaccordion.2.7.js"></script>
+    <script src="__PUBLIC__/job/js/jquery.scrollTo.min.js"></script>
+    <script src="__PUBLIC__/job/js/jquery.nicescroll.js" type="text/javascript"></script>
+    <script src="__PUBLIC__/job/js/jquery.sparkline.js"></script>
+
+
+    <!--common script for all pages-->
+    <script src="__PUBLIC__/job/js/common-scripts.js"></script>
+    
+    <script type="text/javascript" src="__PUBLIC__/job/js/gritter/js/jquery.gritter.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/job/js/gritter-conf.js"></script>
+
+    <!--script for this page-->
+    <script src="__PUBLIC__/job/js/sparkline-chart.js"></script>    
+	<script src="__PUBLIC__/job/js/zabuto_calendar.js"></script>	
+    <!--引入雪花特效的js文件-->
+
+
+
+	<script type="text/javascript">
+        //关闭展示首页后的提示框
+//        $(document).ready(function () {
+//        var unique_id = $.gritter.add({
+//            // (string | mandatory) the heading of the notification
+//            title: 'Welcome to Dashgum!',
+//            // (string | mandatory) the text inside the notification
+//            text: 'Hover me to enable the Close Button. You can hide the left sidebar clicking on the button next to the logo. Free version for <a href="" target="_blank" style="color:#ffd777">BlackTie.co</a>.',
+//            // (string | optional) the image to display on the left
+//            image: '__PUBLIC__/job/img/ui-sam.jpg',
+//            // (bool | optional) if you want it to fade out on its own or just sit there
+//            sticky: true,
+//            // (int | optional) the time you want it to be alive for before fading out
+//            time: '',
+//            // (string | optional) the class name you want to apply to that specific message
+//            class_name: 'my-sticky-class'
+//        });
+//
+//        return false;
+//        });
+	</script>
+	
+	<script type="application/javascript">
+        $(document).ready(function () {
+            $("#date-popover").popover({html: true, trigger: "manual"});
+            $("#date-popover").hide();
+            $("#date-popover").click(function (e) {
+                $(this).hide();
+            });
+        
+            $("#my-calendar").zabuto_calendar({
+                action: function () {
+                    return myDateFunction(this.id, false);
+                },
+                action_nav: function () {
+                    return myNavFunction(this.id);
+                },
+                ajax: {
+                    url: "show_data.php?action=1",
+                    modal: true
+                },
+                legend: [
+                    {type: "text", label: "Special event", badge: "00"},
+                    {type: "block", label: "Regular event", }
+                ]
+            });
+            //点击实现退出登录
+            $('#id_logout').on('click',function(){
+                top.location.href='__CONTROLLER__/logout';
+            });
+
+        });
+        
+        
+        function myNavFunction(id) {
+            $("#date-popover").hide();
+            var nav = $("#" + id).data("navigation");
+            var to = $("#" + id).data("to");
+            console.log('nav ' + nav + ' to: ' + to.month + '/' + to.year);
+        }
+        //jquery加ajax代码实现动态获取未读邮件效果
+        $(function(){
+            setInterval(getCount,5000);
+        });
+        function getCount(){
+            $.get('__MODULE__/Email/getEmail',function(data){
+                $('#is_read').html(data);
+            });
+        }
+        //ajax获取未读邮件前5条记录
+        $('#message').on('click',function(){
+            //编写ajax代码
+            $.ajax({
+                url:"__MODULE__/Email/getMessage",    //请求的url地址
+                dataType:"text",   //返回格式为json
+                type:"GET",   //请求方式 get 或者post
+                success:function(data){
+                    //请求成功时，先处理json数据
+                    var rjson = eval('('+data+ ')');
+                    var mes_name=$('.mes_name');
+                    var mes_time=$('.mes_time');
+                    var mes_title=$('.mes_title');
+                    //alert(getLocalTime(1293072805));
+                    //利用遍历方法，用dom操作为节点赋值
+                    for(var i=0;i<rjson.length;i++){
+                        mes_name[i].innerText=rjson[i].sender;
+                        mes_time[i].innerText=getLocalTime(rjson[i].addtime);//自定义函数转换时间戳格式为日期时间
+                        mes_title[i].innerText=rjson[i].title;
+                    }
+//                    if(data){
+//                        alert('hello');
+//                    }
+
+
+                }
+            });
+           // window.location.href = '__MODULE__/Email/getMessage';
+        });
+        //自定义格式化时间戳函数
+        function getLocalTime(nS) {
+            return new Date(parseInt(nS) * 1000).toLocaleString().replace(/:\d{1,2}$/,' ');
+        }
+        //alert(getLocalTime(1293072805));
+        //点击邮件下拉列表，跳转到当前用户的收件箱中
+        $('.to_box').on('click',function(){
+            window.location.href ='{:U("Email/recBox")}';
+        });
+
+        //添加装饰效果之满屏飘雪
+        $(function(){
+//            //自定义装饰效果jquery代码
+//            var ob_word =document.getElementById('b_word');//这里用jquery不行，专用js  dom操作反而可以，见鬼！
+//            var ob_num =document.getElementById('b_num');
+//            var b_word =$('#b_word').val();
+//            var b_num =ob_num.value;
+//            alert(b_word);
+//            if(b_word ==null ||b_word == undefined){
+//                b_word='*';
+//            }
+//            if(b_num ==null ||b_num == undefined){
+//                b_num=2;
+//            }
+//            $('.b_change').on('click',function(){
+//                 alert(b_word);
+//                alert(b_num);
+//                for(var i=0;i<b_num;i++){
+//                    snow();//调用代码，如此简单即可实现
+//                }
+//            });
+            //点击按钮去除装饰
+            var b_word='<span class="fa fa-circle"></span>';
+            var b_num=1;
+            for(var i=0;i<b_num;i++){
+                snow();//调用代码，如此简单即可实现
+            }
+            function snow() {
+
+                //  1、定义一片雪花模板
+                var flake = document.createElement('div');
+                // 雪花字符 ❄❉❅❆✻✼❇❈❊✥✺
+                flake.innerHTML = '❇';
+                flake.style.cssText = 'position:absolute;';
+
+                //获取页面的高度 相当于雪花下落结束时Y轴的位置
+                var documentHieght = window.innerHeight+50;
+                //获取页面的宽度，利用这个数来算出，雪花开始时left的值
+                var documentWidth = window.innerWidth;
+
+                //定义生成一片雪花的毫秒数
+                var millisec = 50;
+                //2、设置第一个定时器，周期性定时器，每隔一段时间（millisec）生成一片雪花；
+                setInterval(function() { //页面加载之后，定时器就开始工作
+                    //随机生成雪花下落 开始 时left的值，相当于开始时X轴的位置
+                    var startLeft = Math.random() * documentWidth;
+
+                    //随机生成雪花下落 结束 时left的值，相当于结束时X轴的位置
+                    var endLeft = Math.random() * documentWidth;
+
+                    //随机生成雪花大小
+                    var flakeSize = 5 + 20 * Math.random();
+
+                    //随机生成雪花下落持续时间
+                    var durationTime = 4000 + 7000 * Math.random();
+
+                    //随机生成雪花下落 开始 时的透明度
+                    var startOpacity = 0.5 + 0.4 * Math.random();
+
+                    //随机生成雪花下落 结束 时的透明度
+                    var endOpacity = 0.1 + 0.4 * Math.random();
+
+                    //随机生成雪花下落 结束 时的透明度
+                    var color = '#'+Math.ceil(999999 * Math.random());
+
+                    //克隆一个雪花模板
+                    var cloneFlake = flake.cloneNode(true);
+
+                    //第一次修改样式，定义克隆出来的雪花的样式
+                    cloneFlake.style.cssText += `
+            left: ${startLeft}px;
+            opacity: ${startOpacity};
+            font-size:${flakeSize}px;
+            color:${color};
+            top:-25px;
+               transition:${durationTime}ms;
+           `;
+                    //拼接到页面中
+                    //document.body.appendChild(cloneFlake);
+                    var obj = document.getElementById('b_hide');
+                    obj.appendChild(cloneFlake)
+//                    $('.b_beauty').click(function(){
+//                       obj.parent.removeChild(obj);
+//                    });
+
+                    //设置第二个定时器，一次性定时器，
+                    //当第一个定时器生成雪花，并在页面上渲染出来后，修改雪花的样式，让雪花动起来；
+                    setTimeout(function() {
+                        //第二次修改样式
+                        cloneFlake.style.cssText += `
+                left: ${endLeft}px;
+                top:${documentHieght}px;
+                opacity:${endOpacity};
+                color:${color};
+              `;
+
+                        //4、设置第三个定时器，当雪花落下后，删除雪花。
+                        setTimeout(function() {
+                            cloneFlake.remove();
+                        }, durationTime);
+                    }, 0);
+
+                }, millisec);
+            }
+            });
+    </script>
+  
+
+  </body>
+</html>

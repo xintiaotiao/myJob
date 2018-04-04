@@ -1,0 +1,278 @@
+[ 2018-02-14T10:38:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/main
+ERR: 模板不存在:./Application/Admin/View/Index/main.html
+
+[ 2018-02-14T11:36:10+08:00 ] 127.0.0.1 /index.php/Admin/Index/main
+ERR: 模板不存在:./Application/Admin/View/Index/main.html
+
+[ 2018-02-14T11:38:53+08:00 ] 127.0.0.1 /index.php/Admin/Index/show_data.php?action=1&year=2018&month=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+ERR: 非法操作:show_data.php
+
+[ 2018-02-14T11:39:24+08:00 ] 127.0.0.1 /index.php/Admin/Index/show_data.php?action=1&year=2018&month=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+ERR: 非法操作:show_data.php
+
+[ 2018-02-14T11:49:10+08:00 ] 127.0.0.1 /index.php/Admin/Index/show_data.php?action=1&year=2018&month=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001454s ]
+ERR: 非法操作:show_data.php
+
+[ 2018-02-14T12:23:15+08:00 ] 127.0.0.1 /index.php/Admin/Index/show_data.php?action=1&year=2018&month=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+ERR: 非法操作:show_data.php
+
+[ 2018-02-14T12:28:18+08:00 ] 127.0.0.1 /index.php/Admin/Index/general.html
+ERR: 非法操作:general
+
+[ 2018-02-14T12:28:27+08:00 ] 127.0.0.1 /index.php/Admin/Index/buttons.html
+ERR: 非法操作:buttons
+
+[ 2018-02-14T12:28:34+08:00 ] 127.0.0.1 /index.php/Admin/Index/panels.html
+ERR: 非法操作:panels
+
+[ 2018-02-14T12:28:40+08:00 ] 127.0.0.1 /index.php/Admin/Index/calendar.html
+ERR: 非法操作:calendar
+
+[ 2018-02-14T12:29:09+08:00 ] 127.0.0.1 /index.php/Admin/Index/show_data.php?action=1&year=2018&month=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+ERR: 非法操作:show_data.php
+
+[ 2018-02-14T12:39:13+08:00 ] 127.0.0.1 /index.php/Admin/Index/show_data.php?action=1&year=2018&month=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002335s ]
+ERR: 非法操作:show_data.php
+
+[ 2018-02-14T12:40:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/show_data.php?action=1&year=2018&month=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001634s ]
+ERR: 非法操作:show_data.php
+
+[ 2018-02-14T12:40:44+08:00 ] 127.0.0.1 /index.php/Admin/Index/show_data.php?action=1&year=2018&month=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003048s ]
+ERR: 非法操作:show_data.php
+
+[ 2018-02-14T12:40:46+08:00 ] 127.0.0.1 /index.php/Admin/Index/show_data.php?action=1&year=2018&month=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+ERR: 非法操作:show_data.php
+
+[ 2018-02-14T12:40:57+08:00 ] 127.0.0.1 /index.php/Admin/Index/show_data.php?action=1&year=2018&month=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002457s ]
+ERR: 非法操作:show_data.php
+
+[ 2018-02-14T12:43:41+08:00 ] 127.0.0.1 /index.php/Admin/Index/show_data.php?action=1&year=2018&month=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001662s ]
+ERR: 非法操作:show_data.php
+
+[ 2018-02-14T12:44:34+08:00 ] 127.0.0.1 /index.php/Admin/Index/show_data.php?action=1&year=2018&month=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+ERR: 非法操作:show_data.php
+
+[ 2018-02-14T12:45:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/show_data.php?action=1&year=2018&month=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+ERR: 非法操作:show_data.php
+
+[ 2018-02-14T12:47:58+08:00 ] 127.0.0.1 /index.php/Admin/Index/show_data.php?action=1&year=2018&month=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+ERR: 非法操作:show_data.php
+
+[ 2018-02-14T12:48:47+08:00 ] 127.0.0.1 /index.php/Admin/Index/show_data.php?action=1&year=2018&month=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002686s ]
+ERR: 非法操作:show_data.php
+
+[ 2018-02-14T12:50:38+08:00 ] 127.0.0.1 /index.php/Admin/Index/show_data.php?action=1&year=2018&month=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002044s ]
+ERR: 非法操作:show_data.php
+
+[ 2018-02-14T12:51:58+08:00 ] 127.0.0.1 /index.php/Admin/Index/show_data.php?action=1&year=2018&month=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+ERR: 非法操作:show_data.php
+
+[ 2018-02-14T13:07:02+08:00 ] 127.0.0.1 /index.php/Admin/Index/show_data.php?action=1&year=2018&month=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001209s ]
+ERR: 非法操作:show_data.php
+
+[ 2018-02-14T13:07:15+08:00 ] 127.0.0.1 /index.php/Admin/Index/general.html
+ERR: 非法操作:general
+
+[ 2018-02-14T13:17:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/logout
+ERR: 非法操作:logout
+
+[ 2018-02-14T13:17:58+08:00 ] 127.0.0.1 /index.php/Admin/Index/logout
+ERR: 非法操作:logout
+
+[ 2018-02-14T13:17:58+08:00 ] 127.0.0.1 /index.php/Admin/Index/logout
+ERR: 非法操作:logout
+
+[ 2018-02-14T13:18:11+08:00 ] 127.0.0.1 /index.php/Admin/Index/logout
+ERR: 非法操作:logout
+
+[ 2018-02-14T13:18:11+08:00 ] 127.0.0.1 /index.php/Admin/Index/logout
+ERR: 非法操作:logout
+
+[ 2018-02-14T13:39:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/general.html
+ERR: 非法操作:general
+
+[ 2018-02-14T13:51:42+08:00 ] 127.0.0.1 /index.php/Admin/Index/general.html
+ERR: 非法操作:general
+
+[ 2018-02-14T14:21:31+08:00 ] 127.0.0.1 /index.php/Admin/Index/source/index.html
+ERR: 非法操作:source
+
+[ 2018-02-14T14:21:36+08:00 ] 127.0.0.1 /index.php/Admin/Index/source/general.html
+ERR: 非法操作:source
+
+[ 2018-02-14T14:21:50+08:00 ] 127.0.0.1 /index.php/Admin/Index/source/profile.html
+ERR: 非法操作:source
+
+[ 2018-02-14T14:23:28+08:00 ] 127.0.0.1 /index.php/Admin/Index/source/index.html
+ERR: 非法操作:source
+
+[ 2018-02-14T14:24:32+08:00 ] 127.0.0.1 /index.php/Admin/Index/source/index.html
+ERR: 非法操作:source
+
+[ 2018-02-14T14:25:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/buttons.html
+ERR: 非法操作:buttons
+
+[ 2018-02-14T14:28:35+08:00 ] 127.0.0.1 /index.php/Admin/Index/buttons.html
+ERR: 非法操作:buttons
+
+[ 2018-02-14T14:28:43+08:00 ] 127.0.0.1 /index.php/Admin/Index/profile
+ERR: 非法操作:profile
+
+[ 2018-02-14T14:28:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/general
+ERR: 非法操作:general
+
+[ 2018-02-14T14:28:57+08:00 ] 127.0.0.1 /index.php/Admin/Index/form_component
+ERR: 非法操作:form_component
+
+[ 2018-02-14T14:29:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/responsive_table
+ERR: 非法操作:responsive_table
+
+[ 2018-02-14T14:37:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2018-02-14T15:22:30+08:00 ] 192.168.1.102 /index.php/Admin/Index/profile.html
+ERR: 非法操作:profile
+
+[ 2018-02-14T15:22:35+08:00 ] 192.168.1.102 /index.php/Admin/Index/profile.html
+ERR: 非法操作:profile
+
+[ 2018-02-14T16:32:04+08:00 ] 192.168.1.102 /index.php/Admin/Index/profile
+ERR: 非法操作:profile
+
+[ 2018-02-14T16:39:36+08:00 ] 192.168.1.102 /index.php/Admin/Index/sendMail
+ERR: 非法操作:sendMail
+
+[ 2018-02-14T16:42:19+08:00 ] 192.168.1.102 /index.php/Admin/Index/sendMail
+ERR: 非法操作:sendMail
+
+[ 2018-02-14T16:43:59+08:00 ] 192.168.1.102 /index.php/Admin/Index/sendMail
+ERR: 非法操作:sendMail
+
+[ 2018-02-14T16:44:05+08:00 ] 192.168.1.102 /index.php/Admin/Index/sendMail
+ERR: 非法操作:sendMail
+
+[ 2018-02-14T16:44:58+08:00 ] 192.168.1.102 /index.php/Admin/Email/sendMail
+ERR: 模板不存在:./Application/Admin/View/Email/sendMail.html
+
+[ 2018-02-14T18:33:03+08:00 ] 192.168.1.102 /index.php/Admin/Email/sendMail
+ERR: Think\Model:addData方法不存在！
+
+[ 2018-02-14T19:34:21+08:00 ] 192.168.1.102 /index.php/Admin/Email/sendMail
+ERR: 1048:Column 'from_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `my_email` (`to_id`,`title`,`content`,`hasfile`,`isread`,`filename`,`filepath`,`addtime`,`from_id`) VALUES ('0','myJob的项目做的怎么样了','&lt;h3&gt;&lt;strong&gt;myJob的项目做的怎么样了myJob的项目做的怎么样了myJob的项目做的怎么样了myJob的项目做的怎么样了myJob的项目做的怎么样了myJob的项目做的怎么样了myJob的项目做的怎么样了myJob的项目做的怎么样了&lt;/strong&gt;&lt;/h3&gt;&lt;h3&gt;&lt;strong&gt;myJob的项目做的怎么样了myJob的项目做的怎么样了myJob的项目做的怎么样了myJob的项目做的怎么样了myJob的项目做的怎么样了myJob的项目做的怎么样了myJob的项目做的&lt;/strong&gt;&lt;/h3&gt;&lt;h3&gt;&lt;strong&gt;myJob的项目做的怎么样了myJob的项目做的怎么样了myJob的项目做的怎么样了myJob的项目做的怎么样了myJob的项目做的怎么样了myJob的项目做的怎么样了myJob的项目做的&lt;/strong&gt;&lt;/h3&gt;&lt;h3&gt;&lt;br/&gt;&lt;/h3&gt;','1','0','常用函数总结表.xls','/Public/upload/2018-02-14/5a841ebd7f7e7.xls','1518608061',NULL)
+
+[ 2018-02-14T19:36:31+08:00 ] 192.168.1.102 /index.php/Admin/Email/showlist.html
+ERR: 非法操作:showlist
+
+[ 2018-02-14T19:37:33+08:00 ] 192.168.1.102 /index.php/Admin/Email/showlist.html
+ERR: 非法操作:showlist
+
+[ 2018-02-14T19:48:18+08:00 ] 192.168.1.102 /index.php/Admin/Email/showlist.html
+ERR: 非法操作:showlist
+
+[ 2018-02-14T19:48:47+08:00 ] 192.168.1.102 /index.php/Admin/Index/sendMail
+ERR: 非法操作:sendMail
+
+[ 2018-02-14T19:48:52+08:00 ] 192.168.1.102 /index.php/Admin/Email/sendMail
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : select id,username from user where id != 
+
+[ 2018-02-14T19:50:03+08:00 ] 192.168.1.102 /index.php/Admin/Email/sendMail
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : select id,username from my_user where id != 
+
+[ 2018-02-14T19:52:31+08:00 ] 192.168.1.102 /index.php/Admin/Email/sendMail
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : select id,username from my_user where id != 
+
+[ 2018-02-14T20:01:23+08:00 ] 192.168.1.102 /index.php/Admin/Email/showlist.html
+ERR: 非法操作:showlist
+
+[ 2018-02-14T20:03:36+08:00 ] 192.168.1.102 /index.php/Admin/Email/showlist.html
+ERR: 非法操作:showlist
+
+[ 2018-02-14T20:18:11+08:00 ] 192.168.1.100 /index.php/Admin/Email/showlist.html
+ERR: 非法操作:showlist
+
+[ 2018-02-14T21:11:00+08:00 ] 192.168.1.102 /index.php/Admin/Email/sendMail
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : select id,username from my_user where id != 
+
+[ 2018-02-14T21:34:17+08:00 ] 192.168.1.102 /index.php/Admin/Email/sendBox
+ERR: 非法操作:sendBox
+
+[ 2018-02-14T21:34:25+08:00 ] 192.168.1.102 /index.php/Admin/Email/recBox
+ERR: 非法操作:recBox
+
+[ 2018-02-14T22:36:02+08:00 ] 192.168.1.102 /index.php/Admin/Email/download/id/2
+ERR: 非法操作:download
+
+[ 2018-02-14T22:47:51+08:00 ] 192.168.1.102 /index.php/Admin/Email/download/id/3
+ERR: 非法操作:download
+
+[ 2018-02-14T23:09:38+08:00 ] 192.168.1.102 /index.php/Admin/Email/Application/Admin/View/Email.sendBox.html
+ERR: 非法操作:Application
+
+[ 2018-02-14T23:33:47+08:00 ] 192.168.1.102 /index.php/Admin/Email/login.html
+ERR: 非法操作:login
+
+[ 2018-02-14T23:37:41+08:00 ] 192.168.1.102 /index.php/Admin/Email/myself.html
+ERR: 非法操作:myself
+
+[ 2018-02-14T23:54:17+08:00 ] 192.168.1.102 /index.php/Admin/Email/recBox
+ERR: 非法操作:recBox
+

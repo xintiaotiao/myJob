@@ -1,0 +1,113 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>添加音乐</title>
+    <link href="/Public/job/css/bootstrap.css" rel="stylesheet">
+    <script src="/Public/job/js/jquery-1.8.3.min.js"></script>
+    <script src="/Public/job/js/bootstrap.min.js"></script>
+    <script>
+        $(function(){
+            //用jquery实现表格的悬停效果
+            $('tr').on('hover',function(){
+                $('tr').removeClass('active');
+                $(this).addClass('active');
+            });
+            //jquery代码实现点击提交表单
+            $('.song_sub').on('click',function(){
+                var val1= $('input[ name="ssong"]');
+                //alert(val1.val());
+                if(val1.val()){
+                    //alert(val1.val());
+                     $('form').submit();
+                }else{
+                    alert('上传歌曲不能为空！');
+                }
+
+            });
+            $('.song_re').on('click',function(){
+                $('form')[0].reset();
+            });
+            //juqery前端验证代码
+
+
+        });
+    </script>
+</head>
+<body>
+    <!--自定义邮件界面，根据bootsrap制作，外面套一个面板，面板内部套表单，用来提交数据-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <form class="" role="form" action ="/index.php/Admin/Music/add" method="post" enctype="multipart/form-data">
+                    <table class="table table-hover table-striped">
+                        <caption class="h2" style="margin-top:20px">请填写添加音乐的信息：</caption>
+                        <thead>
+                        <tbody>
+                        <tr class="">
+                            <td>
+                                <div class=" form-inline">
+                                    <div class=" ">
+                                        <label class="col-md-4" >1、请选择音乐类别(可选):</label>
+                                        <select name="myself" class="form-control col-md-5" style="margin-left:15px">
+                                            <option selected="selected" value="1">艺术家原唱</option>
+                                            <option value="2">用户独创</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <td>
+                                <div class="form-group">
+                                    <label class="col-md-4 control-label">2、请选择歌曲(必填)：</label>
+                                    <div class="col-md-5">
+                                        <input type="file"  name="ssong" />
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <td>
+                                <div class="form-group">
+                                    <label class="col-md-4 control-label">3、请选择歌手图片(可选)：</label>
+                                    <div class="col-md-5">
+                                        <input type="file"  name="spic" />
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <td>
+                                <div class="form-group">
+                                    <label class="col-md-4 control-label">4、请输入演唱者(可选)：</label>
+                                    <div class="col-md-5">
+                                        <input type="text"  name="songer" />
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <td>
+                                <div class="form-group">
+                                    <label style="margin-left:15px">5、请输入歌曲对应的歌词(可选)：</label>
+                                    <textarea class="form-control" rows="8" name="lyric"></textarea>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button type="button" class="btn btn-default song_sub">确认提交</button>
+                                <button type="button" class="btn btn-default song_re">重新填写</button>
+                            </td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

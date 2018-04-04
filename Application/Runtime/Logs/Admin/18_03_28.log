@@ -1,0 +1,1080 @@
+[ 2018-03-28T19:17:08+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003962s ]
+
+[ 2018-03-28T19:17:14+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2018-03-28T19:17:19+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001329s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001145s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001193s ]
+
+[ 2018-03-28T19:17:24+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001333s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001563s ]
+
+[ 2018-03-28T19:17:29+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001692s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001278s ]
+
+[ 2018-03-28T19:17:34+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001193s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001243s ]
+
+[ 2018-03-28T19:17:39+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001323s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001403s ]
+
+[ 2018-03-28T19:17:44+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001802s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001278s ]
+
+[ 2018-03-28T19:17:49+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001680s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001325s ]
+
+[ 2018-03-28T19:17:54+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002665s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002917s ]
+
+[ 2018-03-28T19:17:59+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001547s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001147s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001193s ]
+
+[ 2018-03-28T19:18:04+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001942s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001113s ]
+
+[ 2018-03-28T19:18:09+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001553s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2018-03-28T19:18:14+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001529s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001680s ]
+
+[ 2018-03-28T19:18:19+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002039s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002087s ]
+
+[ 2018-03-28T19:18:24+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002641s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001839s ]
+
+[ 2018-03-28T19:18:29+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002661s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001791s ]
+
+[ 2018-03-28T19:18:34+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001335s ]
+
+[ 2018-03-28T19:18:39+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001331s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001144s ]
+
+[ 2018-03-28T19:18:44+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002712s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001585s ]
+
+[ 2018-03-28T19:18:49+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001167s ]
+
+[ 2018-03-28T19:18:54+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001042s ]
+
+[ 2018-03-28T19:18:59+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001165s ]
+
+[ 2018-03-28T19:19:04+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001230s ]
+
+[ 2018-03-28T19:19:09+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001999s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002214s ]
+
+[ 2018-03-28T19:19:14+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001258s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001112s ]
+
+[ 2018-03-28T19:19:19+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002063s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2018-03-28T19:19:24+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002674s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001820s ]
+
+[ 2018-03-28T19:19:29+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001331s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001480s ]
+
+[ 2018-03-28T19:19:34+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001675s ]
+
+[ 2018-03-28T19:19:39+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001136s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001164s ]
+
+[ 2018-03-28T19:19:44+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001654s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001862s ]
+
+[ 2018-03-28T19:19:49+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001549s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001062s ]
+
+[ 2018-03-28T19:19:54+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001321s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001234s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001282s ]
+
+[ 2018-03-28T19:19:59+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001394s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001203s ]
+
+[ 2018-03-28T19:20:04+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001114s ]
+
+[ 2018-03-28T19:20:09+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001109s ]
+
+[ 2018-03-28T19:20:14+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001737s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001160s ]
+
+[ 2018-03-28T19:20:19+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001104s ]
+
+[ 2018-03-28T19:20:24+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001114s ]
+
+[ 2018-03-28T19:20:29+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001316s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001498s ]
+
+[ 2018-03-28T19:20:34+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001119s ]
+
+[ 2018-03-28T19:20:39+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000978s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001025s ]
+
+[ 2018-03-28T19:20:44+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001732s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001523s ]
+
+[ 2018-03-28T19:20:49+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002244s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001249s ]
+
+[ 2018-03-28T19:20:54+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001167s ]
+
+[ 2018-03-28T19:20:59+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001351s ]
+
+[ 2018-03-28T19:21:04+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001290s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001504s ]
+
+[ 2018-03-28T19:21:09+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002162s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001106s ]
+
+[ 2018-03-28T19:21:14+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001470s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001146s ]
+
+[ 2018-03-28T19:21:19+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001101s ]
+
+[ 2018-03-28T19:21:24+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001380s ]
+
+[ 2018-03-28T19:21:29+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001652s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001099s ]
+
+[ 2018-03-28T19:21:34+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001111s ]
+
+[ 2018-03-28T19:21:39+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001280s ]
+
+[ 2018-03-28T19:21:44+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001676s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001231s ]
+
+[ 2018-03-28T19:21:49+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001264s ]
+
+[ 2018-03-28T19:21:54+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002107s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001593s ]
+
+[ 2018-03-28T19:21:59+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001365s ]
+
+[ 2018-03-28T19:22:04+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002085s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001102s ]
+
+[ 2018-03-28T19:22:09+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001085s ]
+
+[ 2018-03-28T19:22:14+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001359s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001112s ]
+
+[ 2018-03-28T19:22:19+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001187s ]
+
+[ 2018-03-28T19:22:24+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001410s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001550s ]
+
+[ 2018-03-28T19:22:29+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001291s ]
+
+[ 2018-03-28T19:22:34+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001145s ]
+
+[ 2018-03-28T19:22:39+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002100s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001104s ]
+
+[ 2018-03-28T19:22:44+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001478s ]
+
+[ 2018-03-28T19:22:49+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001555s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000987s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001031s ]
+
+[ 2018-03-28T19:22:54+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001450s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001212s ]
+
+[ 2018-03-28T19:22:59+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001271s ]
+
+[ 2018-03-28T19:23:04+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001279s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001380s ]
+
+[ 2018-03-28T19:23:09+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001265s ]
+
+[ 2018-03-28T19:23:14+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001094s ]
+
+[ 2018-03-28T19:23:19+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001330s ]
+
+[ 2018-03-28T19:23:24+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001375s ]
+
+[ 2018-03-28T19:23:29+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001161s ]
+
+[ 2018-03-28T19:23:34+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001528s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001115s ]
+
+[ 2018-03-28T19:23:39+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002139s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001396s ]
+
+[ 2018-03-28T19:23:44+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001376s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001109s ]
+
+[ 2018-03-28T19:23:49+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001161s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001211s ]
+
+[ 2018-03-28T19:23:54+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001282s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001537s ]
+
+[ 2018-03-28T19:23:59+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001263s ]
+
+[ 2018-03-28T19:24:04+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001519s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001230s ]
+
+[ 2018-03-28T19:24:09+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001097s ]
+
+[ 2018-03-28T19:24:14+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001290s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001455s ]
+
+[ 2018-03-28T19:24:19+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001123s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001168s ]
+
+[ 2018-03-28T19:24:24+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001434s ]
+
+[ 2018-03-28T19:24:29+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001132s ]
+
+[ 2018-03-28T19:24:34+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001848s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001142s ]
+
+[ 2018-03-28T19:24:39+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000972s ]
+
+[ 2018-03-28T19:24:44+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001244s ]
+
+[ 2018-03-28T19:24:49+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001271s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001281s ]
+
+[ 2018-03-28T19:24:54+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001477s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001177s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001229s ]
+
+[ 2018-03-28T19:24:59+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001181s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001351s ]
+
+[ 2018-03-28T19:25:04+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001105s ]
+
+[ 2018-03-28T19:25:09+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001667s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001103s ]
+
+[ 2018-03-28T19:25:14+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001698s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001866s ]
+
+[ 2018-03-28T19:25:19+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001264s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001531s ]
+
+[ 2018-03-28T19:25:24+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001629s ]
+
+[ 2018-03-28T19:25:29+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001630s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001839s ]
+
+[ 2018-03-28T19:25:34+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001147s ]
+
+[ 2018-03-28T19:25:39+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001125s ]
+
+[ 2018-03-28T19:25:44+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001714s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001266s ]
+
+[ 2018-03-28T19:25:49+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001060s ]
+
+[ 2018-03-28T19:25:54+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002051s ]
+
+[ 2018-03-28T19:25:59+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001279s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001093s ]
+
+[ 2018-03-28T19:26:04+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001365s ]
+
+[ 2018-03-28T19:26:09+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001490s ]
+
+[ 2018-03-28T19:26:14+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001138s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001188s ]
+
+[ 2018-03-28T19:26:19+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001194s ]
+
+[ 2018-03-28T19:26:24+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001754s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001300s ]
+
+[ 2018-03-28T19:26:29+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001688s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001132s ]
+
+[ 2018-03-28T19:26:34+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001342s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001150s ]
+
+[ 2018-03-28T19:26:39+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002126s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002186s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002288s ]
+
+[ 2018-03-28T19:26:44+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001723s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001148s ]
+
+[ 2018-03-28T19:26:49+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000974s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001021s ]
+
+[ 2018-03-28T19:26:54+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001136s ]
+
+[ 2018-03-28T19:26:59+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002290s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001649s ]
+
+[ 2018-03-28T19:27:04+08:00 ] 192.168.1.102 /index.php/Admin/Email/getEmail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+SQL: select count(*)as count from my_email,my_user where my_email.from_id = my_user.id and my_email.to_id = 1 and my_email.isread !=1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001172s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001215s ]
+

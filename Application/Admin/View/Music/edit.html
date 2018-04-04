@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>音乐管理后台</title>
+    <link href="__PUBLIC__/job/css/bootstrap.css" rel="stylesheet">
+    <script src="__PUBLIC__/job/js/jquery-1.8.3.min.js"></script>
+    <script src="__PUBLIC__/job/js/bootstrap.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/plugin/utf8-php/ueditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/plugin/utf8-php/ueditor.all.min.js"> </script>
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/plugin/utf8-php/lang/zh-cn/zh-cn.js"></script>
+
+    <style>
+        tr{
+            text-align:center;
+        }
+        .btn_po button{
+            margin:0px 10px;
+        }
+        .m_page span{
+            font-size:16px;
+        }
+        .m_page a{
+            margin:auto 10px;
+            font-size:16px;
+        }
+    </style>
+
+    <script>
+        var id="";
+        $(function(){
+            var ue = UE.getEditor('editor');
+            //用jquery代码实现为分页标签添加样式
+            $('.m_page span').addClass('btn btn-danger btn-xs');
+            $('.m_page a').addClass('btn btn-info btn-xs');
+            //jquery代码实现鼠标悬停效果
+            $('tr').hover(function(){
+                $('tr').removeClass('success');
+                $(this).addClass('success');
+            });
+            //jquery实现checkbox的全选、全不选、删除等功能
+            //全选
+            $('.sel_all').on('click',function(){
+                $(':checkbox').attr('checked',true);
+            });
+            //全不选
+            $('.sel_none').on('click',function(){
+                $(':checkbox').attr('checked',false);
+            });
+            //单个删除，先用jquery做过alert弹窗确定，是否要删除
+            $('.o_del').click(function(){
+                if(confirm("确定要删除吗?")){
+                    return true;
+                }else{
+                    return false;
+                }
+            });
+            //删除所有
+            $('.a_del').click(function(){
+
+                var obj= $(":checkbox:checked");
+                for(var i=0;i<obj.length;i++){
+                    id+=obj[i].value+',';
+                }
+                id=id.substr(0,id.length-1);
+                //alert(id);
+                if(confirm("确定要删除吗?")){
+                   // return true;
+                    window.location.href='__CONTROLLER__/mdel/id/'+id;
+                }else{
+                    return false;
+                }
+            });
+            //ajax获取差评次数
+            $('.c_ajax').on('click',function(){
+                var id = $(this).attr('id-data');
+               // alert(id);
+                $.ajax({
+                    type: "GET",
+                    dataType: 'text',
+                    async:true,
+                    url: "__CONTROLLER__/cBad/id/"+id,
+                    success: function(data){
+                       alert(data);
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <!--自定义邮件界面，根据bootsrap制作，外面套一个面板，面板内部套表单，用来提交数据-->
+    <div class="container">
+        <div class="row">
+            <div class="panel panel-info col-md-12">
+                <div class="panel-heading  ">
+                    <button class="pull-center btn btn-info disabled" style="margin-left:350px">音乐网站管理后台</button>
+                </div>
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <thead>
+                        <tr>
+                            <td colspan="10" class="btn_po">
+                                <button class="btn btn-danger btn-xs pull-right a_del">删除全部</button>
+                                <button class="btn btn-info btn-xs pull-right sel_none">全不选</button>
+                                <button class="btn btn-info btn-xs pull-right sel_all">全选</button>
+                             </td>
+                        </tr>
+                        <tr>
+                            <th style="text-align: center">序号</th>
+                            <th style="text-align: center">上传者</th>
+                            <th style="text-align: center">歌名</th>
+                            <th style="text-align: center">演唱者</th>
+                            <th style="text-align: center">是否原唱</th>
+                            <th style="text-align: center">是否上架</th>
+                            <th style="text-align: center">点击量</th>
+                            <th style="text-align: center">评论次数</th>
+                            <th style="text-align: center">查看评论</th>
+                            <th style="text-align: center">操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                            <volist name="data" id="vol" key="k">
+                                <tr>
+                                    <td><input type="checkbox" value="{$vol.id}" />&nbsp;&nbsp;{$k}</td>
+                                    <td>{$vol.username}</td>
+                                    <td>{$vol.ssong}</td>
+                                    <td>{$vol.songer}</td>
+                                    <td><if condition="$vol.myself == 1">原唱<else/>自创</if></td>
+                                    <td><if condition="$vol.ison ==1">上架<else/>下架</if></td>
+                                    <td>{$vol.hot}</td>
+                                    <td><span class="btn btn-info btn-xs c_ajax" id-data="{$vol.id}">aJax</span></td>
+                                    <td><a href="__CONTROLLER__/playMusic/id/{$vol.id}" target="_blank" class="btn btn-info btn-xs c_show">查看</a></td>
+                                    <td><a href="__CONTROLLER__/medit/id/{$vol.id}" class="btn btn-info btn-xs" style="margin:auto 15px">编辑</a><a href="__CONTROLLER__/mdel/id/{$vol.id}" class="btn btn-danger btn-xs o_del">删除</a></td>
+                                </tr>
+                            </volist>
+                        </tbody>
+                    </table>
+                    <div class="m_page">
+                        {$show}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
