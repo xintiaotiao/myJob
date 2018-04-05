@@ -1,0 +1,5 @@
+项目移植及导入数据说明：
+1、git@github.com:xintiaotiao/myJob.git clone源码下载，即可得到源码。
+2、修改  myJob\Application\Common\Conf\config.php 中的mysql数据库密码为本机mysql密码。
+3、创建一个my_job数据库，让后导入文件my_job.sql，即导入数据表。
+4、配置域名后即可访问，另，本网站采用登录限制，登录的用户名密码等可以查看数据表中的my_user.
