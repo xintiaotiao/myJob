@@ -11,7 +11,7 @@
        .content{
             overflow: scroll;
             overflow-x: hide;
-            height:280px;
+            height:350px;
             width:100%;
             border: 3px dashed pink;
             border-radius: 15px;  
@@ -114,7 +114,7 @@
                                 } 
                             }
                             $('.content').html(html);
-                            $('.con_one').addClass('')
+                            $('.con_one').addClass('text-right');
                             $('.content').scrollTop($('.content')[0].scrollHeight);
                             //alert(json[0].content);
                             //alert('{$Think.session.username}') ;
@@ -122,13 +122,13 @@
                     });
 
             },3000);
-            //设置定时器，实现新消息提示功能
+            //设置定时器，实现新消息提示功能,如果没有参数要传递，就不能用post方式
+            $('.chat_news').html(null);
              setInterval(function(){
                 $('.chat_news').html(null);
                 $.ajax({
-                    type: "post",
+                    type: "get",
                     url: "__CONTROLLER__/getCount",
-                    data:{} ,
                     dataType: "text",
                     success: function(data){
                         var json1 = eval("("+data+")");
@@ -139,6 +139,7 @@
                         html1 += '</ul>';
                         $('.chat_news').html(html1);
                         //alert(json1[0].username);
+                        //alert('hello');
                     }
                     
                 });
@@ -194,13 +195,13 @@
                 <div class="form-group">
                     <label class="btn btn-success disabled">最新未读消息：</label>
                     <div class="chat_news">
-                        <ul class="list-group ">
-                           <!--  <li class="list-group-item btn">新消息1</li>
+                       <!--  <ul class="list-group ">
                             <li class="list-group-item btn">新消息1</li>
                             <li class="list-group-item btn">新消息1</li>
                             <li class="list-group-item btn">新消息1</li>
-                            <li class="list-group-item btn">新消息1</li> -->
-                        </ul>
+                            <li class="list-group-item btn">新消息1</li>
+                            <li class="list-group-item btn">新消息1</li>
+                        </ul> -->
                     </div>
                     
                 </div>
@@ -218,7 +219,7 @@
             </div>
             <div class="col-md-8 text-center col-md-offset-4" style="margin-top:15px;">
                 <button class="btn btn-success chat_sub disabled">发送消息</button>
-                <button class="btn btn-success chat_more">更多消息</button>
+                <!-- <button class="btn btn-success chat_more">更多消息</button> -->
             </div>
             <div  class="col-md-8 col-md-offset-4" style="margin_top:10px">
                 <div class="form-group">

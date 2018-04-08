@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>在线聊天管理后台</title>
+    <link href="__PUBLIC__/job/css/bootstrap.css" rel="stylesheet">
+    <script src="__PUBLIC__/job/js/jquery-1.8.3.min.js"></script>
+    <script src="__PUBLIC__/job/js/bootstrap.min.js"></script>
+    <style>
+      .m_hover{
+        color:blue;
+        font-size:14px;
+        background-color: #ccc;
+      }
+    </style>
+    <script>
+          $(function(){
+            //实现表格的悬停效果
+             $('.chat_hover').hover(function(){
+                $(this).addClass('m_hover');
+            },function(){
+                $(this).removeClass('m_hover');
+            });
+            //juqery实现点击删除聊天记录
+            $('.s_del').on('click',function(){
+                var id= $(this).attr('id-data');
+                //alert(id);
+                if(confirm('确定要删除吗？')){
+                    window.location.href='__CONTROLLER__/delItem/id/'+id;
+                }
+            });
+
+            //全选
+            $('.s_all').on('click',function(){
+                $(':checkbox').attr('checked',true);
+            });
+            //全不选
+            $('.s_none').on('click',function(){
+                $(':checkbox').attr('checked',false);
+            });
+            //删除选择的内容
+            $('.s_delall').on('click',function(){
+                var id="";
+                var obj= $(":checkbox:checked");
+                for(var i=0;i<obj.length;i++){
+                    id+=obj[i].value+',';
+                }
+                id=id.substr(0,id.length-1);
+                //当有选择框的时候才跳转到删除页面
+                if(id!=''){
+                    //当确定删除后才跳转到删除页面
+                    var bool=confirm("确定要删除已选的吗？");
+                    if(bool){
+                        //alert(id);
+                        window.location.href= '__CONTROLLER__/delItem/id/ ' + id;
+                    }
+                }
+
+            });
+            //定制分页样式
+            $('.s_page span').addClass('btn btn-danger');
+            $('.s_page a').addClass('btn btn-info');
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="panel panel-info">
+                <div class="panel-heading text-center">
+                    <h3 class="panel-title btn btn-info disabled">{$name}----在线聊天记录管理后台</h3>
+                </div>
+                <div class="panel-body">
+                  <div class="panel-body">
+                <div class='' style="text-align: right">
+                <button class="btn btn-info s_all">全选</button>
+                <button class="btn btn-info s_none">全不选</button>
+                <button class="btn btn-danger s_delall">删除选择</button>
+              </div>
+              <div class='s_page' style="text-align: left">
+                  {$show}
+              </div>
+                    <table class="table table-bordered">
+                      <thead>
+                        <tr>
+                          <th></th>
+                          <th>序    号</th>
+                          <th>发送者</th>
+                          <th>接收者</th>
+                          <th>消息状态</th>
+                          <th>消息内容</th>
+                          <th>消息时间</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                      <volist name="data" id="vol" key="k">
+                         <tr class="chat_hover">
+                          <td><input type="checkbox" value="{$vol.id}" /></td>
+                          <td>{$k}</td>
+                          <td>
+                          <if condition="$vol.from_id == $nid">{$name}<else/>{$vol.toname}</if>
+                          </td>
+                          <td> <if condition="$vol.to_id == $nid">{$name}<else/>{$vol.toname}</if>
+                          </td>
+                          <td><if condition="$vol.stas == 1">未读<else/>已读</if>
+                          </td>
+                          <td>{$vol.content|mb_substr='0','30'}</td>
+                          <td>{$vol.addtime|date='Y-m-d H:i:s',###}</td>
+                        </tr>
+                      </volist>               
+                      </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

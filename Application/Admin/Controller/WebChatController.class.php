@@ -86,5 +86,47 @@ class WebChatController extends Controller {
   // 	//展示模板
   // 	$this -> display();
   // }
-
+  // web聊天记录管理后台代码
+  public function user(){
+    //这里不使用原生sql，采用tp模型操作
+    $model = M('user');
+    $data = $model ->field('id,username') ->select();
+    //dump($data);die;
+    $this ->assign('data',$data);
+    $this ->display();
+  }
+  //获取当前选择用户的聊天内容
+  public function userContent(){
+    //接收传递的id
+    $get =I('get.');
+    $id =$get['id'];
+    $name =$get['name'];
+    //dump($id."---".$name);die;
+    //编写sql语句,需要用户发送和接收的数据，所以需要用union连接2个select语句
+    //分页代码
+    $count = M('chat') ->where('from_id = '.$id.' or to_id ='.$id)->count();
+    //dump($count);die;
+    $page =new \Think\Page($count,20);
+    $show =$page ->show();
+    $sql ='select my_chat.*,my_user.username as toname from my_chat,my_user where my_chat.to_id = my_user.id and my_chat.from_id = '.$id.' union select my_chat.*,my_user.username as toname from my_chat,my_user where my_chat.from_id = my_user.id and my_chat.to_id = '.$id.' order by addtime desc limit '.$page->firstRow.','.$page->listRows;
+    $data = M() ->query($sql);
+    //dump($data);die;
+    $this ->assign('nid',$id);
+    $this ->assign('name',$name);
+    $this ->assign('data',$data);
+    $this ->assign('show',$show);
+    $this ->display();
+  }
+  //删除选择的聊天记录
+  public function delItem(){
+    //接收id
+    $id =I('get.id');
+    $model = M('chat');
+    $data =$model->delete($id);
+        if($data){
+            $this ->success('删除成功！',U('WebChat/user'));
+        }else{
+            $this ->error('删除失败！');
+        }
+  }
 }
